@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookTime2.Android", "CookTime2.Android\CookTime2.Android.csproj", "{CFCD82DF-ECFC-47BC-80CE-3379FEC06F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookTime2", "CookTime2\CookTime2.csproj", "{159F9A77-219A-47D3-8102-2E9E6054C1E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFCD82DF-ECFC-47BC-80CE-3379FEC06F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCD82DF-ECFC-47BC-80CE-3379FEC06F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCD82DF-ECFC-47BC-80CE-3379FEC06F45}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CFCD82DF-ECFC-47BC-80CE-3379FEC06F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCD82DF-ECFC-47BC-80CE-3379FEC06F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCD82DF-ECFC-47BC-80CE-3379FEC06F45}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{159F9A77-219A-47D3-8102-2E9E6054C1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159F9A77-219A-47D3-8102-2E9E6054C1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159F9A77-219A-47D3-8102-2E9E6054C1E6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{159F9A77-219A-47D3-8102-2E9E6054C1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159F9A77-219A-47D3-8102-2E9E6054C1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159F9A77-219A-47D3-8102-2E9E6054C1E6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BA2C09A-5DBE-4C80-8180-BC9E272C830F}
+	EndGlobalSection
+EndGlobal

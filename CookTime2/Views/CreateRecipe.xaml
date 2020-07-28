@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CookTime2.Views.CreateRecipe"
+             Title="Cook Time">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="20,0,20,0" VerticalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0">
+                    <Entry Placeholder="Nombre receta" FontSize="16" x:Name="EntryNombre"/>
+                </StackLayout>
+                <StackLayout Grid.Row="1">
+                    <Picker x:Name="PickerTipo" Title="Tipo de plato">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Desayuno</x:String>
+                                <x:String>Almuerzo</x:String>
+                                <x:String>Cena</x:String>
+                                <x:String>Merienda</x:String>
+                                <x:String>Brunch</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+                <StackLayout Grid.Row="2">
+                    <Entry Placeholder="Porciones" FontSize="16" x:Name="EntryPorciones"/>
+                </StackLayout>
+                <StackLayout Grid.Row="3">
+                    <Picker x:Name="PickerTiempo" Title="Tiempo de receta">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Aperitivo</x:String>
+                                <x:String>Entrada</x:String>
+                                <x:String>Plato fuerte</x:String>
+                                <x:String>Bebida Alcohólica</x:String>
+                                <x:String>Bebida ría</x:String>
+                                <x:String>Bebida Caliente</x:String>
+                                <x:String>Postre</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+                <StackLayout Grid.Row="4">
+                    <Picker x:Name="PickerDuracion" Title="Duración">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Menos de una hora</x:String>
+                                <x:String>Entre una hora y tres horas</x:String>
+                                <x:String>Entre tres horas y un día</x:String>
+                                <x:String>Más de un día</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </StackLayout>
+                <StackLayout Grid.Row="5">
+                    <Entry Placeholder="Dificultad" FontSize="16" x:Name="EntryDificultad"/>
+                </StackLayout>
+                <StackLayout Grid.Row="6">
+                    <Entry Placeholder="Lista de ingredientes" FontSize="16" x:Name="EntryIngredientes"/>
+                </StackLayout>
+                <StackLayout Grid.Row="7">
+                    <Entry Placeholder="Pasos a seguir" FontSize="16" x:Name="EntryPasos"/>
+                </StackLayout>
+                <StackLayout Grid.Row="8">
+                    <Entry Placeholder="Autor" FontSize="16" x:Name="EntryAutor"/>
+                </StackLayout>
+                <StackLayout Grid.Row="9">
+                    <Button Text="Create" TextColor="White" BackgroundColor="Blue" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

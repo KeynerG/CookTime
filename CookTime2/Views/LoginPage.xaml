@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="CookTime2.Views.LoginPage">
+             x:Class="CookTime2.Views.LoginPage"
+             >
     <ContentPage.Content>
         <ScrollView>
         <StackLayout>
@@ -18,8 +19,10 @@
 
                 <Entry Placeholder="Email" FontSize="16" x:Name="EntryEmail" Grid.Row="0"/>
                 <Entry Placeholder="Password" IsPassword="True" FontSize="16" x:Name="EntryPassword" Grid.Row="1"/>
-                <Button Text="Log In" TextColor="White" BackgroundColor="Blue" Clicked="Button_Clicked" Grid.Row="2"/>
-                <Button Text="Sing Up" Grid.Row="3" Clicked="Button_Clicked_1"/>
+                    <Entry Placeholder="Username" FontSize="16" x:Name="EntryUsername" Grid.Row="2"/>
+                    <Button Text="Log In" TextColor="White" BackgroundColor="Blue" Clicked="Button_Clicked" Grid.Row="3"/>
+                <Button Text="Sing Up" Grid.Row="4" Clicked="Button_Clicked_1"/>
+                <Label Text="prueba" x:Name="label1" Grid.Row="6"/>
                 </Grid>
         </StackLayout>
         </ScrollView>

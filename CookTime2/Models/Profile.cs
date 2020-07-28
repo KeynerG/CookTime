@@ -6,5 +6,12 @@ namespace CookTime2.Models
 {
     class Profile
     {
+        private MyMenuModel myMenu { set; get; }
+
+        private void changePassword()
+        {
+            
+        }
     }
+
 }

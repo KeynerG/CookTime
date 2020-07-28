@@ -1,7 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using CookTime2.Services;
 using CookTime2.Views;
 
 namespace CookTime2
@@ -12,8 +11,6 @@ namespace CookTime2
         public App()
         {
             InitializeComponent();
-
-            DependencyService.Register<MockDataStore>();
             MainPage = new NavigationPage(new LoginPage());
         }
 
